@@ -10,9 +10,9 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
-
+import ContadorSimple from './components/ContadorSimple';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <ContadorSimple/>
   </React.StrictMode>,
 )
